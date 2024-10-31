@@ -5,11 +5,17 @@ import (
 	"math"
 )
 
+//func minInt(x, y int) int {
+//xflt := float64(x)
+//yflt := float64(y)
+//z := math.Min(xflt, yflt)
+//return int(z)
+//}
+
+// solution on hexlet
+
 func minInt(x, y int) int {
-	xflt := float64(x)
-	yflt := float64(y)
-	z := math.Min(xflt, yflt)
-	return int(z)
+	return int(math.Min(float64(x), float64(y)))
 }
 
 func main() {
