@@ -8,5 +8,5 @@ var lastName string
 func main() {
 
 	lastName := "Smith"
-	fmt.Println(firstName, " ", lastName)
+	fmt.Println(firstName, lastName)
 }
