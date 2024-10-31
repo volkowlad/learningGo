@@ -12,7 +12,7 @@ func cnv(str int) string {
 	return strconv.Itoa(str)
 }
 
-func main() {
+func main1() {
 
 	test := -8
 	fnh := cnv(test)

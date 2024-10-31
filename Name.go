@@ -5,7 +5,7 @@ import "fmt"
 var firstName = "John"
 var lastName string
 
-func main() {
+func Name() {
 
 	lastName := "Smith"
 	fmt.Println(firstName, lastName)
