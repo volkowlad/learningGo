@@ -18,7 +18,7 @@ func minInt(x, y int) int {
 	return int(math.Min(float64(x), float64(y)))
 }
 
-func main1() {
+func main() {
 	x := -8
 	y := 4
 	fmt.Println(minInt(x, y))
