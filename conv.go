@@ -5,8 +5,8 @@ import (
 	"strconv"
 )
 
-var test int
-var fnh string
+//var test int
+//var fnh string
 
 func cnv(str int) string {
 	return strconv.Itoa(str)
@@ -14,8 +14,8 @@ func cnv(str int) string {
 
 func main() {
 
-	test = -8
-	fnh = cnv(test)
+	test := -8
+	fnh := cnv(test)
 	fmt.Print(fnh)
 
 }
